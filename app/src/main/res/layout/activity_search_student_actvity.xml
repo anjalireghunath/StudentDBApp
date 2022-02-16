@@ -1,8 +1,36 @@
-<LinearLayout android:layout_height="match_parent"
+<ScrollView android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:background="@color/Login_background"
     xmlns:android="http://schemas.android.com/apk/res/android">
+     <LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="AdmissionNo"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/admision"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Search"
+        android:id="@+id/search"
+        android:layout_margin="10dp"
+        android:background="@color/button_clr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Back To Menu"
+        android:layout_margin="10dp"
+        android:id="@+id/backtom"
+        android:background="@color/button_clr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <TextView
         android:text="Name"
         android:layout_margin="10dp"
@@ -14,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
-        android:text="RollNumber"
+        android:text="RollNo"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -25,39 +53,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
-        android:text="AdmissionNo"
-        android:layout_margin="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <EditText
-        android:id="@+id/admno"
-        android:layout_margin="10dp"
-        android:inputType="number"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <TextView
         android:text="College"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
-        android:id="@+id/college"
+        android:id="@+id/colege"
         android:layout_margin="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <androidx.appcompat.widget.AppCompatButton
-        android:text="Submit"
-        android:background="@color/button_clr"
-        android:layout_margin="10dp"
-        android:id="@+id/submit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <androidx.appcompat.widget.AppCompatButton
-        android:text="Back To Menu"
-        android:layout_margin="10dp"
-        android:id="@+id/btom"
-        android:background="@color/button_clr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
 </LinearLayout>
+
+
+</ScrollView>
+
+
